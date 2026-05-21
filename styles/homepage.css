@@ -1,0 +1,27 @@
+.instruction {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(129, 30, 20);
+}
+
+.branch {
+    width: 600px;
+    background-color: white;
+    color: rgb(98, 20, 12);
+    padding: 10px 10px 10px 16px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 16px;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+
+    transition: background-color 0.35s;
+}
+
+.branch:hover {
+    background-color: rgb(255, 193, 193);
+}

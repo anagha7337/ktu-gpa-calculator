@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SGPA Calculator</title>
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/calculator.css">
+</head>
+<body>
+  <div class="header">
+    <p class="heading">KTU GPA Calculator 2019 Scheme</p>
+  </div>
+
+  <div id="semesters-container"></div>
+
+  <div style="text-align: center; margin-top: 1rem;">
+  <button id="calculate-cgpa-btn" class="calculate-btn">Calculate CGPA</button>
+</div>
+
+  <div class="results-wrapper">
+  <div class="results-box">
+    <p><strong>CGPA:</strong> <span id="cgpa">0.00</span></p>
+  </div>
+  <div class="results-box">
+    <p><strong>Total Credits:</strong> <span id="total-credits">0</span></p>
+  </div>
+</div>
+  <script src="scripts/calculator.js"></script>
+</body>
+</html>

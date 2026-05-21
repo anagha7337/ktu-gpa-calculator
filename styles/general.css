@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 215, 208);
+}
+
+.header {
+    height: 60px;
+    width:100%;
+
+    background: linear-gradient(45deg, rgb(237, 33, 58), rgb(129, 30, 20));
+
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+
